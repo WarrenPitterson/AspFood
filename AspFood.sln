@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.572
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspFood", "AspFood\AspFood.csproj", "{5FEFC6C9-0D98-48B2-98B0-1C53F53AB7B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspFood.Core", "AspFood.Core\AspFood.Core.csproj", "{A6474D91-DC30-4301-9D1F-32FE9F48B1B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPFood.Data", "ASPFood.Data\ASPFood.Data.csproj", "{ECC2BAB6-3E92-4664-B717-D53FF09F4E0E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5FEFC6C9-0D98-48B2-98B0-1C53F53AB7B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FEFC6C9-0D98-48B2-98B0-1C53F53AB7B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FEFC6C9-0D98-48B2-98B0-1C53F53AB7B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FEFC6C9-0D98-48B2-98B0-1C53F53AB7B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6474D91-DC30-4301-9D1F-32FE9F48B1B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6474D91-DC30-4301-9D1F-32FE9F48B1B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6474D91-DC30-4301-9D1F-32FE9F48B1B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6474D91-DC30-4301-9D1F-32FE9F48B1B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECC2BAB6-3E92-4664-B717-D53FF09F4E0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECC2BAB6-3E92-4664-B717-D53FF09F4E0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECC2BAB6-3E92-4664-B717-D53FF09F4E0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECC2BAB6-3E92-4664-B717-D53FF09F4E0E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {335F73FF-DC49-4375-9287-61F6AB792470}
+	EndGlobalSection
+EndGlobal
