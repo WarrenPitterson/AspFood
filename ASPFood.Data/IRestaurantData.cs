@@ -20,8 +20,8 @@ namespace ASPFood.Data
             restaurants = new List<Restaurant>()
             {
                 new Restaurant { ID = 1, Name = "Warren's Noodles", Location = "Manchester", Food = FoodType.Chinese },
-                new Restaurant { ID = 2, Name = "Banging Curries", Location = "Manchester", Food = FoodType.Indian },
-                new Restaurant { ID = 3, Name = "Pizza World", Location = "Manchester", Food = FoodType.Pizza }
+                new Restaurant { ID = 2, Name = "Ben's Banging Curries", Location = "Manchester", Food = FoodType.Indian },
+                new Restaurant { ID = 3, Name = "Peeta's Pizza World", Location = "Manchester", Food = FoodType.Pizza }
             };
         }
 
