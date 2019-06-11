@@ -11,9 +11,12 @@ namespace AspFood.Pages.Restaurants
     public class DetailsModel : PageModel
     {
         public Restaurant Restaurant { get; set; }
-        public void OnGet()
+        public void OnGet(int restaurantId)
         {
-            Restaurant = new Restaurant();
+            Restaurant = new Restaurant
+            {
+                Id = restaurantId
+            };
         }
     }
 }
