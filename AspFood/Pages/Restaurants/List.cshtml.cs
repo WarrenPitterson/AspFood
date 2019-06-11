@@ -17,7 +17,7 @@ namespace AspFood.Pages.Restaurants
 
         private readonly IConfiguration config;
         private readonly IRestaurantData restaurantData;
-        public IEnumerable <Restaurant> Restaurants{ get; set; }
+        public IEnumerable <Restaurant> Restaurant{ get; set; }
 
         [BindProperty (SupportsGet = true)]
         public string SearchTerm { get; set; }
@@ -32,7 +32,7 @@ namespace AspFood.Pages.Restaurants
         {
            
             Message = config["Message"];
-            Restaurants = restaurantData.GetRestaurantsByName(searchTerm);
+            Restaurant = restaurantData.GetRestaurantsByName(searchTerm);
         }
     }
 }

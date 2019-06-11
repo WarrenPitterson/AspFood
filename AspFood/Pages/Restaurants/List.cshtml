@@ -10,7 +10,7 @@
 
     <div class="form-group">
         <div class="input-group">
-             <input type ="search" class="form-control" value="" name="searchTerm"/>
+             <input type ="search" class="form-control" asp-for="SearchTerm"/>
              <span class="input-group-btn">
                  <button class="btn btn-default">
                      <i class="glyphicon glyphicon-search"> </i>
@@ -23,7 +23,7 @@
 </form>
 
 <table class="table">
-    @foreach(var restaurant in Model.Restaurants)
+    @foreach(var restaurant in Model.Restaurant)
     {
       <tr>
         <td>@restaurant.Name</td>
