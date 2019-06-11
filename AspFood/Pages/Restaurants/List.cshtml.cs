@@ -19,16 +19,20 @@ namespace AspFood.Pages.Restaurants
         private readonly IRestaurantData restaurantData;
         public IEnumerable <Restaurant> Restaurants{ get; set; }
 
+        [BindProperty (SupportsGet = true)]
+        public string SearchTerm { get; set; }
+
         public ListModel(IConfiguration config, IRestaurantData restaurantData)
         {
             this.config = config;
             this.restaurantData = restaurantData;
         }
 
-        public void OnGet()
+        public void OnGet(string searchTerm)
         {
+           
             Message = config["Message"];
-            Restaurants = restaurantData.GetAll();
+            Restaurants = restaurantData.GetRestaurantsByName(searchTerm);
         }
     }
 }
