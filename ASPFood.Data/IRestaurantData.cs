@@ -21,7 +21,7 @@ namespace ASPFood.Data
             {
                 new Restaurant { Id = 1, Name = "Warren's Noodles", Location = "Manchester", Food = FoodType.Chinese },
                 new Restaurant { Id = 2, Name = "Ben's Banging Curries", Location = "Manchester", Food = FoodType.Indian },
-                new Restaurant { Id = 3, Name = "Peeta's Pizza World", Location = "Manchester", Food = FoodType.Pizza }
+                new Restaurant { Id = 3, Name = "Peter's Pizza World", Location = "Manchester", Food = FoodType.Pizza }
             };
         }
 
